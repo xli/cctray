@@ -1,6 +1,6 @@
 # CCTray
 
-Simply fetch and parse out cctray feed xml as ruby objects.
+Simply fetch and parse cctray feed xml as ruby objects.
 
 
 ## Example
