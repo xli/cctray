@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     cctray (0.0.1)
-      nokogiri
+      nokogiri (~> 1.6, >= 1.6.0)
 
 GEM
   remote: https://rubygems.org/
@@ -10,11 +10,9 @@ GEM
     mini_portile (0.5.2)
     nokogiri (1.6.1)
       mini_portile (~> 0.5.0)
-    rake (10.1.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   cctray!
-  rake

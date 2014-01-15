@@ -10,8 +10,6 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency('nokogiri', '~> 1.6', '>= 1.6.0')
 
-  s.add_development_dependency('rake', '~> 10.1', '>= 10.0.0')
-
   s.files = ['README.md']
   s.files += Dir['lib/**/*.rb']
 end
