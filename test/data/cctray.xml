@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Projects>
+    <Project
+        name="SvnTest"
+        activity="Sleeping"
+        lastBuildStatus="Exception"
+        lastBuildLabel="8"
+        lastBuildTime="2005-09-28T10:30:34.6362160+01:00"
+        webUrl="http://mrtickle/ccnet/"/>
+
+    <Project
+        name="HelloWorld"
+        activity="Sleeping"
+        lastBuildStatus="Success"
+        lastBuildLabel="13"
+        lastBuildTime="2005-09-15T17:33:07.6447696+01:00"
+        webUrl="http://mrtickle/ccnet/">
+      <messages>
+        <message text="Xiao &lt;xli@thoughtworks.com&gt;" kind="Breakers" />
+      </messages>
+    </Project>
+    <Project name="Deployment :: Install" activity="Building" lastBuildStatus="Success" lastBuildLabel="482" lastBuildTime="2014-01-15T09:01:47" webUrl="https://goserver/stage/url" />
+</Projects>
+
+</Projects>
