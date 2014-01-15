@@ -8,9 +8,12 @@ class CCTray
                              :activity,
                              :last_build_status,
                              :last_build_label,
-                             :last_build_time,
+                             :last_build_time_str,
                              :web_url,
                              :messages)
+    def last_build_time
+      @last_build_time ||= DateTime.parse(last_build_time_str)
+    end
   end
   class Message < Struct.new(:kind, :text)
   end

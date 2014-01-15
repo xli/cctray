@@ -23,6 +23,8 @@ class CCTrayTest < Test::Unit::TestCase
     projects = cctray.fetch
     assert_equal 3, projects.size
     assert_equal ['Deployment :: Install', 'HelloWorld', 'SvnTest'], projects.map{|proj| proj.name}.sort
+    assert_equal(DateTime, projects.first.last_build_time.class)
+
     message_project = projects.find{|proj| proj.name =~ /HelloWorld/}
     assert_equal 1, message_project.messages.size
     assert_equal 'Xiao <xli@thoughtworks.com>', message_project.messages.first.text
